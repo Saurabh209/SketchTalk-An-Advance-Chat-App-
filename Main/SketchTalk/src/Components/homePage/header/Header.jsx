@@ -1,6 +1,12 @@
 import React from 'react'
-
+import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 function Header() {
+
+  const navigate = useNavigate();
+  const Navigator = ()=>{
+    navigate("/login");
+  }
     return (
         <nav className="bg-gray-200 py-4 px-8 flex justify-between items-center border-b-2 border-[#323232] shadow-md">
         <div className="flex items-center space-x-2">
@@ -20,34 +26,34 @@ function Header() {
         </div>
 
         <div className="flex space-x-8">
-          <a
-            href="#"
+          <Link
+            to="/"
             className="text-[#323232] font-semibold py-2 px-4 rounded-md hover:text-[#2d8cf0] hover:bg-[#2d8cf0]/10 transition-all duration-250"
           >
             Home
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            to="/features"
             className="text-[#323232] font-semibold py-2 px-4 rounded-md hover:text-[#2d8cf0] hover:bg-[#2d8cf0]/10 transition-all duration-250"
           >
             Features
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            to="/explore"
             className="text-[#323232] font-semibold py-2 px-4 rounded-md hover:text-[#2d8cf0] hover:bg-[#2d8cf0]/10 transition-all duration-250"
           >
             Explore
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            to="/about"
             className="text-[#323232] font-semibold py-2 px-4 rounded-md hover:text-[#2d8cf0] hover:bg-[#2d8cf0]/10 transition-all duration-250"
           >
             About
-          </a>
+          </Link>
         </div>
 
         <div className="flex space-x-4">
-          <button onClick={()=>{console.log("clicked")}}
+          <button onClick={()=>{Navigator()}}
             className="flex items-center space-x-2 px-4 py-2 border-2 border-[#323232] rounded-md text-[#323232] font-semibold 
               hover:translate-x-[-2px] hover:translate-y-[-2px] transition-transform duration-250 
               shadow-[4px_4px_#323232] hover:shadow-[6px_6px_#323232]"

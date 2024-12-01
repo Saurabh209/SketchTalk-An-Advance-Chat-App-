@@ -13,7 +13,7 @@ export default function LoginSignup() {
         </span>
       </p>
 
-      <button className="w-[250px] h-[40px] flex justify-center items-center gap-2 
+      <button className="w-[305px] h-[40px] flex justify-center items-center gap-2 
         border-2 border-[#323232] bg-white rounded-md 
         shadow-[4px_4px_#323232] text-[#323232] font-semibold text-base 
         relative overflow-hidden group">
@@ -28,7 +28,7 @@ export default function LoginSignup() {
         <span className="absolute inset-0 bg-[#212121] opacity-0 group-hover:opacity-100 transition-opacity duration-250"></span>
       </button>
 
-      <button className="w-[250px] h-[40px] flex justify-center items-center gap-2 
+      <button className="w-[305px] h-[40px] flex justify-center items-center gap-2 
         border-2 border-[#323232] bg-white rounded-md 
         shadow-[4px_4px_#323232] text-[#323232] font-semibold text-base 
         relative overflow-hidden group">
@@ -48,7 +48,7 @@ export default function LoginSignup() {
       <input 
         type="email" 
         placeholder="Email" 
-        className="w-[250px] h-[40px] rounded-md border-2 border-[#323232] 
+        className="w-[305px] h-[40px] rounded-md border-2 border-[#323232] 
           bg-white shadow-[4px_4px_#323232] text-[#323232] 
           font-semibold text-[15px] px-[10px] py-[5px] outline-none"
       />
@@ -56,13 +56,13 @@ export default function LoginSignup() {
       <input 
         type="password" 
         placeholder="Password" 
-        className="w-[250px] h-[40px] rounded-md border-2 border-[#323232] 
+        className="w-[305px] h-[40px] rounded-md border-2 border-[#323232] 
           bg-white shadow-[4px_4px_#323232] text-[#323232] 
           font-semibold text-[15px] px-[10px] py-[5px] outline-none tracking-widest 
           placeholder:tracking-normal"
       />
 
-      <button className="w-[250px] h-[40px] flex justify-center items-center gap-2 
+      <button className="w-[305px] h-[40px] flex justify-center items-center gap-2 
         border-2 border-[#323232] bg-white rounded-md 
         shadow-[4px_4px_#323232] text-[#323232] font-semibold text-base 
         relative overflow-hidden group">
