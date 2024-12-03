@@ -11,6 +11,8 @@ import Page_0 from "./Components/page_0/Page_0.jsx";
 import Features_page from "./Components/features_page/features_page.jsx";
 import About from "./Components/about_page/About.jsx";
 import Explore from "./Components/explore_page/Explore.jsx";
+import Registration from "./Components/loginSignup/Registration.jsx";
+
 
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -29,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <LoginSignup />,
+  },
+  {
+    path: "/registration",
+    element: <Registration />,
   },
   {
     path: "/page_0",
