@@ -9,7 +9,9 @@ export default function LoginSignup() {
   }
   return (
     <div className="flex flex-col justify-around items-center min-h-screen bg-[#a4a4a4]">
-    <div className="flex justify-end items-center h-[50px] mr-[70px] min-w-full "><button className="bg-[#212121] text-white px-4 py-2 rounded-md" onClick={Navigator}>Explore</button></div>
+    <div className="flex justify-end items-center h-[50px] mr-[70px] min-w-full "><button className="flex items-center space-x-2 px-4 py-2 border-2 border-[#323232] rounded-md text-[#323232] font-semibold 
+              hover:translate-x-[-2px] hover:translate-y-[-2px] transition-transform duration-250 
+              shadow-[4px_4px_#323232] hover:shadow-[6px_6px_#323232]" onClick={Navigator}>Explore</button></div>
       <form
         className="p-5 w-[350px] bg-[#d3d3d3] flex flex-col items-start justify-center gap-5 
       border-2 border-[#323232] rounded-md shadow-[4px_4px_#323232]"

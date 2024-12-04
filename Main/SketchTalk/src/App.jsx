@@ -7,7 +7,7 @@ import LoginSignup from "./Components/loginSignup/loginSignup.jsx";
 import Header from "./Components/homePage/header/Header.jsx";
 import Footer from "./Components/homePage/footer/Footer.jsx";
 import Body from "./Components/homePage/body/Body.jsx";
-import Page_0 from "./Components/page_0/Page_0.jsx";
+
 import Features_page from "./Components/features_page/features_page.jsx";
 import About from "./Components/about_page/About.jsx";
 import Explore from "./Components/explore_page/Explore.jsx";
@@ -36,16 +36,7 @@ const router = createBrowserRouter([
     path: "/registration",
     element: <Registration />,
   },
-  {
-    path: "/page_0",
-    element: (
-      <div className="flex flex-col min-h-screen">
-        <Header />
-        <Page_0 />
-        <Footer />
-      </div>
-    ),
-  },
+  
   {
     path: "/features",
     element: 
