@@ -21,7 +21,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: (
-      <div className="flex flex-col min-h-screen">
+      <div className="flex flex-col min-h-screen ">
         <Header />
         <Body />
         <Footer />
@@ -41,7 +41,7 @@ const router = createBrowserRouter([
     path: "/features",
     element: 
     <>
-      <div className="flex flex-col min-h-screen">
+      <div className="flex flex-col min-h-screen l">
         <Header />
         <Features_page />
         <Footer />

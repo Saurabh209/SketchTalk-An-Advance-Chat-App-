@@ -5,7 +5,7 @@ function Footer() {
     <div className="sticky bottom-0 w-full">
 
     <footer className="bg-[#d3d3d3]  px-8 border-t-2 border-[#323232] mt-auto">
-      <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="max-w-[1200px] ">
         <div className="space-y-4">
           <h3 className="text-2xl font-bold text-[#323232] mb-4">SketchTalk</h3>
           <p className="text-[#666]">
