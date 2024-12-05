@@ -77,25 +77,33 @@ export default function LoginSignup() {
         <input
           type="email"
           placeholder="Email"
-          className="w-[305px] h-[40px] rounded-md border-2 border-[#323232] 
-          bg-white shadow-[4px_4px_#323232] text-[#323232] 
-          font-semibold text-[15px] px-[10px] py-[5px] outline-none"
+          className="w-[305px] h-10 rounded-md border-2 border-[#323232] 
+              bg-white shadow-[4px_4px_#323232] text-[15px] font-semibold 
+              text-[#323232] p-[5px_10px] outline-none transition-all 
+              focus:border-[#2d8cf0] focus:shadow-[4px_4px_#2d8cf0]"
         />
 
         <input
           type="password"
           placeholder="Password"
-          className="w-[305px] h-[40px] rounded-md border-2 border-[#323232] 
-          bg-white shadow-[4px_4px_#323232] text-[#323232] 
-          font-semibold text-[15px] px-[10px] py-[5px] outline-none tracking-widest 
-          placeholder:tracking-normal"
+          className="w-[305px] h-10 rounded-md border-2 border-[#323232] 
+              bg-white shadow-[4px_4px_#323232] text-[15px] font-semibold 
+              text-[#323232] p-[5px_10px] outline-none transition-all 
+              focus:border-[#2d8cf0] focus:shadow-[4px_4px_#2d8cf0]"
         />
 
         <button
-          className="w-[305px] h-[40px] flex justify-center items-center gap-2 
-        border-2 border-[#323232] bg-white rounded-md 
-        shadow-[4px_4px_#323232] text-[#323232] font-semibold text-base 
-        relative overflow-hidden group"
+          className="flex justify-center items-center gap-[5px] 
+              w-[305px] h-10 rounded-md border-2 border-[#323232] 
+              bg-white shadow-[4px_4px_#323232] text-[16px] font-semibold 
+              text-[#323232] cursor-pointer relative overflow-hidden z-[1] 
+              transition-all duration-250 
+              hover:text-[#e8e8e8] 
+              before:content-[''] before:absolute before:top-0 before:left-0 
+              before:h-full before:w-0 before:bg-[#212121] before:z-[-1] 
+              before:shadow-[4px_8px_19px_-3px_rgba(0,0,0,0.27)] 
+              before:transition-all before:duration-250 
+              hover:before:w-full"
         >
           Login
           <svg
