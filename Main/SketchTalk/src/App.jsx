@@ -44,7 +44,7 @@ const router = createBrowserRouter([
       <div className="flex flex-col min-h-screen l">
         <Header />
         <Features_page />
-        <Footer />
+        
      </div>
     </>,
   },
