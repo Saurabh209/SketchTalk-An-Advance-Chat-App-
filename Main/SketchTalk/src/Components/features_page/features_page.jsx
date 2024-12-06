@@ -4,7 +4,7 @@ import Footer from "../homePage/footer/Footer";
 function Features_page() {
   return (
     <div className="flex flex-col">
-      <div className="flex-1 h-full px-[130px]">
+      <div className="flex-1  px-[130px]">
         <section className="flex flex-col justify-center items-center w-full h-[140px] bg-[#ffffff]">
           <h2 className="text-2xl font-bold text-[#323232]">
             Welcome to <b className="text-[#0a0a0a] text-5xl">SketchTalk</b>
@@ -22,7 +22,7 @@ function Features_page() {
 
         <hr className="w-full h-[1px] bg-[#323232] mb-5"></hr>
 
-        <section className="flex w-full h-[330px] bg-[#ffffff]]">
+        <section className="flex w-full h-[330px] bg-[#eeeeee] border-2 border-[#ffffff] rounded-lg">
           <div className="flex flex-col  justify-center items-center w-1/2 h-full border-2 border-[#ffffff] overflow-hidden">
             <p className="text-3xl font-semibold font-mono text-[#323232]">
               Deliver thoughts with
@@ -56,7 +56,7 @@ function Features_page() {
           </div>
         </section>
 
-        <section className="flex w-full h-[330px] bg-[#ffffff]]">
+        <section className="flex w-full h-[330px] bg-[#ffffff]">
           <div className="w-1/2 h-full border-2 border-[#ffffff]">
             <video
               className="w-full h-full "
@@ -167,7 +167,7 @@ function Features_page() {
             </p>
 
             <p className="text-[#666] text-center mt-4 px-6">
-            Earn exclusive achievements and titles as you engage with the
+              Earn exclusive achievements and titles as you engage with the
               platform. Track your progress, unlock rewards, and showcase your
               dedication through personalized badges and recognition based on
               your activity and contributions.
@@ -185,7 +185,7 @@ function Features_page() {
           </div>
         </section>
 
-        <section className="flex flex-col  items-center w-full h-[300px] bg-[#ffffff]]">
+        <section className="flex flex-col  items-center w-full h-[610px] bg-[#ffffff]]">
           <div className="flex flex-col justify-center items-center w-full h-[300px] border-2 border-[#ffffff] rounded-lg bg-[#ffffff]">
             <p className="text-3xl font-semibold font-mono text-[#323232]">
               And best of all
@@ -217,12 +217,12 @@ function Features_page() {
             </video>
           </div>
         </section>
-       
       </div>
-      <div className="h-[100px] border-2 border-[#ffffff]">
-
-      </div>
-      
+      <navbar className="flex justify-center items-center w-full h-[600px] bg-[#adadad] px-[70px]">
+        <h3 className="text-3xl font-semibold font-mono text-[#323232]">
+          Navbar
+        </h3>
+      </navbar>
     </div>
   );
 }
