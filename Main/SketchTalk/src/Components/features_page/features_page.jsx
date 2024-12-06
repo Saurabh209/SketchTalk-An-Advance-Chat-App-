@@ -3,9 +3,9 @@ import Footer from "../homePage/footer/Footer";
 
 function Features_page() {
   return (
-    <>
-      <div className="flex-1 h-full px-[170px]">
-        <section className="flex flex-col justify-center items-center w-full h-[130px] bg-[#ffffff]">
+    <div className="flex flex-col">
+      <div className="flex-1 h-full px-[130px]">
+        <section className="flex flex-col justify-center items-center w-full h-[140px] bg-[#ffffff]">
           <h2 className="text-2xl font-bold text-[#323232]">
             Welcome to <b className="text-[#0a0a0a] text-5xl">SketchTalk</b>
           </h2>
@@ -22,7 +22,7 @@ function Features_page() {
 
         <hr className="w-full h-[1px] bg-[#323232] mb-5"></hr>
 
-        <section className="flex w-full h-[300px] bg-[#ffffff]]">
+        <section className="flex w-full h-[330px] bg-[#ffffff]]">
           <div className="flex flex-col  justify-center items-center w-1/2 h-full border-2 border-[#ffffff] overflow-hidden">
             <p className="text-3xl font-semibold font-mono text-[#323232]">
               Deliver thoughts with
@@ -56,7 +56,7 @@ function Features_page() {
           </div>
         </section>
 
-        <section className="flex w-full h-[300px] bg-[#ffffff]]">
+        <section className="flex w-full h-[330px] bg-[#ffffff]]">
           <div className="w-1/2 h-full border-2 border-[#ffffff]">
             <video
               className="w-full h-full "
@@ -99,7 +99,7 @@ function Features_page() {
           </div>
         </section>
 
-        <section className="flex w-full h-[300px] bg-[#ffffff]]">
+        <section className="flex w-full h-[330px] bg-[#ffffff]]">
           <div className="flex flex-col justify-center items-center w-1/2 h-full border-2 border-[#ffffff]">
             <p className="text-3xl font-semibold font-mono text-[#323232]">
               Make Plans with
@@ -142,30 +142,32 @@ function Features_page() {
           </div>
         </section>
 
-        <section className="flex w-full h-[300px] bg-[#ffffff]]">
-          <video
-            className="w-full h-full "
-            autoPlay="true"
-            loop
-            playsInline
-            muted
-          >
-            <source
-              src="./src/assets/videos/Achievement.mp4"
-              type="video/mp4"
-            />
-          </video>
-          <div className="flex flex-col justify-center text-center items-center w-1/2 h-full border-2 border-[#ffffff]">
+        <section className="flex w-full h-[330px] bg-[#ffffff]]">
+          <div className="w-1/2 h-full border-2 border-[#ffffff]">
+            <video
+              className="w-full h-full "
+              autoPlay="true"
+              loop
+              playsInline
+              muted
+            >
+              <source
+                src="./src/assets/videos/VisualData.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+          <div className="flex flex-col justify-center items-center w-1/2 h-full border-2 border-[#ffffff]">
             <p className="text-3xl font-semibold font-mono text-[#323232]">
               User Stats based
-              <b className="text-3xl font-semibold font-mono text-[#00FFDC]">
+              <b className="text-3xl font-semibold font-mono text-[#BA68C8]">
                 {" "}
-                Rewards
+                Achivements
               </b>
             </p>
 
             <p className="text-[#666] text-center mt-4 px-6">
-              Earn exclusive achievements and titles as you engage with the
+            Earn exclusive achievements and titles as you engage with the
               platform. Track your progress, unlock rewards, and showcase your
               dedication through personalized badges and recognition based on
               your activity and contributions.
@@ -177,7 +179,7 @@ function Features_page() {
           <div className="w-[500px] h-full flex justify-center items-center ">
             <img
               className="h-full"
-              src="./src/assets/images/line_middle_right.png"
+              src="./src/assets/images/line_right.png"
               alt="middle_line"
             />
           </div>
@@ -187,7 +189,7 @@ function Features_page() {
           <div className="flex flex-col justify-center items-center w-full h-[300px] border-2 border-[#ffffff] rounded-lg bg-[#ffffff]">
             <p className="text-3xl font-semibold font-mono text-[#323232]">
               And best of all
-              <b className="text-3xl font-semibold font-mono text-[#45dd3a]">
+              <b className="text-3xl font-semibold font-mono text-[#d35598]">
                 {" "}
                 Collaborative Whiteboard
               </b>
@@ -215,9 +217,13 @@ function Features_page() {
             </video>
           </div>
         </section>
+       
       </div>
-      {/* <Footer /> */}
-    </>
+      <div className="h-[100px] border-2 border-[#ffffff]">
+
+      </div>
+      
+    </div>
   );
 }
 
