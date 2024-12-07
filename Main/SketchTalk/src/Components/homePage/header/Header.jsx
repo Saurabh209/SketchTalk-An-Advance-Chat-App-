@@ -8,7 +8,7 @@ function Header() {
     navigate("/login");
   }
     return (
-        <nav className="bg-gray-200 py-4 px-8 flex justify-between items-center border-b-2 border-[#323232] shadow-md sticky top-0">
+        <nav className="bg-[#adfd6700] backdrop-blur-md py-4 px-8 flex justify-between items-center border-b-2 border-[#323232] shadow-md sticky top-0">
         <div className="flex items-center space-x-2">
           <svg
             className="w-8 h-8 text-[#323232]"
