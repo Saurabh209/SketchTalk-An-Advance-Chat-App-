@@ -3,8 +3,8 @@ import Footer from "../homePage/footer/Footer";
 
 function Features_page() {
   return (
-    <div className="flex flex-col min-h-screen relative">
-      <div className="flex-1 px-[130px] bg-white z-10">
+    <div className="flex flex-col">
+      <div className="flex-1  px-[130px]">
         <section className="flex flex-col justify-center items-center w-full h-[140px] bg-[#ffffff]">
           <h2 className="text-2xl font-bold text-[#323232]">
             Welcome to <b className="text-[#0a0a0a] text-5xl">SketchTalk</b>
@@ -185,7 +185,7 @@ function Features_page() {
           </div>
         </section>
 
-        <section className="flex flex-col  items-center w-full h-[650px] bg-[#ffffff]]">
+        <section className="flex flex-col  items-center w-full h-[610px] bg-[#ffffff]]">
           <div className="flex flex-col justify-center items-center w-full h-[300px] border-2 border-[#ffffff] rounded-lg bg-[#ffffff]">
             <p className="text-3xl font-semibold font-mono text-[#323232]">
               And best of all
@@ -205,7 +205,7 @@ function Features_page() {
               and helps teams stay aligned through visual communication.
             </p>
           </div>
-          <div className="w-[500px] min-w-[500px] h-[500px] border-2 border-[#ffffff]">
+          <div className="w-[500px] h-[500px] border-2 border-[#ffffff]">
             <video
               className="w-full h-full "
               autoPlay="true"
@@ -218,7 +218,11 @@ function Features_page() {
           </div>
         </section>
       </div>
-      <Footer className="sticky bottom-0 z-0 " />
+      <navbar className="flex justify-center items-center w-full h-[600px] bg-[#adadad] px-[70px]">
+        <h3 className="text-3xl font-semibold font-mono text-[#323232]">
+          Navbar
+        </h3>
+      </navbar>
     </div>
   );
 }
