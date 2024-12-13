@@ -1,6 +1,6 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom';
-import { Link } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
+import { Link ,NavLink } from 'react-router-dom';
 function Header() {
 
   const navigate = useNavigate();
@@ -26,30 +26,30 @@ function Header() {
         </div>
 
         <div className="flex space-x-8">
-          <Link
-            to="/"
-            className="text-[#323232] font-semibold py-2 px-4 rounded-md hover:text-[#2d8cf0] hover:bg-[#2d8cf0]/10 transition-all duration-250"
+          <NavLink
+                to="/"
+            className={({isActive})=>isActive?"text-[#2d8cf0] font-semibold py-2 px-4 rounded-md hover:bg-[#2d8cf0]/10  duration-250  decoration-blue-500  bg-[#2d8cf0]/10 transition-all duration-250":"text-[#323232] font-semibold py-2 px-4 rounded-md hover:text-[#2d8cf0]"}
           >
-            Home
-          </Link>
-          <Link
+            Home 
+          </NavLink>
+          <NavLink
             to="/features"
-            className="text-[#323232] font-semibold py-2 px-4 rounded-md hover:text-[#2d8cf0] hover:bg-[#2d8cf0]/10 transition-all duration-250"
+            className={({isActive})=>isActive?"text-[#2d8cf0] font-semibold py-2 px-4 rounded-md  hover:bg-[#2d8cf0]/10 duration-250  decoration-blue-500  bg-[#2d8cf0]/10 transition-all duration-250":"text-[#323232] font-semibold py-2 px-4 rounded-md hover:text-[#2d8cf0]"}
           >
             Features
-          </Link>
-          <Link
+          </NavLink>
+          <NavLink
             to="/explore"
-            className="text-[#323232] font-semibold py-2 px-4 rounded-md hover:text-[#2d8cf0] hover:bg-[#2d8cf0]/10 transition-all duration-250"
+            className={({isActive})=>isActive?"text-[#2d8cf0] font-semibold py-2 px-4 rounded-md  hover:bg-[#2d8cf0]/10  duration-250  decoration-blue-500  bg-[#2d8cf0]/10 transition-all duration-250":"text-[#323232] font-semibold py-2 px-4 rounded-md hover:text-[#2d8cf0]"}
           >
             Explore
-          </Link>
-          <Link
+          </NavLink>
+          <NavLink
             to="/about"
-            className="text-[#323232] font-semibold py-2 px-4 rounded-md hover:text-[#2d8cf0] hover:bg-[#2d8cf0]/10 transition-all duration-250"
+            className={({isActive})=>isActive?"text-[#2d8cf0] font-semibold py-2 px-4 rounded-md hover:bg-[#2d8cf0]/10  duration-250  decoration-blue-500  bg-[#2d8cf0]/10 transition-all duration-250":"text-[#323232] font-semibold py-2 px-4 rounded-md hover:text-[#2d8cf0]"}
           >
             About
-          </Link>
+          </NavLink>
         </div>
 
         <div className="flex space-x-4">

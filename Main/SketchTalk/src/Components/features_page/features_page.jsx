@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../homePage/footer/Footer";
+
 
 function Features_page() {
   return (
@@ -220,7 +220,7 @@ function Features_page() {
       </div>
       <navbar className="flex justify-center items-center w-full h-[600px] bg-[#adadad] px-[70px]">
         <h3 className="text-3xl font-semibold font-mono text-[#323232]">
-          Navbar
+          Footer
         </h3>
       </navbar>
     </div>
