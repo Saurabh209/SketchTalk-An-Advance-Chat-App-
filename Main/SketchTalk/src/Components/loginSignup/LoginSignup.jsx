@@ -7,6 +7,7 @@ export default function LoginSignup() {
   const Navigator = ()=>{
     navigate("/");
   }
+
   return (
     <div className="flex flex-col justify-around items-center min-h-screen bg-[#a4a4a4]">
     <div className="flex justify-end items-center h-[50px] mr-[70px] min-w-full "><button className="flex items-center space-x-2 px-4 py-2 border-2 border-[#323232] rounded-md text-[#323232] font-semibold 

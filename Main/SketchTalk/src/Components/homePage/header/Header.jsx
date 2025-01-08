@@ -7,6 +7,7 @@ function Header() {
   const Navigator = ()=>{
     navigate("/login");
   }
+
     return (
         <nav className=" py-4 px-8 flex justify-between items-center border-b-2 border-[#323232] shadow-md sticky top-0 backdrop-blur-md">
         <div className="flex items-center space-x-2">
